@@ -1,0 +1,24 @@
+{
+  "name": "node_first_steps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "greet.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbalindaba01/node_first_steps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbalindaba01/node_first_steps/issues"
+  },
+  "homepage": "https://github.com/mbalindaba01/node_first_steps#readme",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "figlet": "^1.5.0"
+  }
+}
