@@ -1,5 +1,7 @@
 const figlet = require('figlet')
+const chalk = require('chalk')
 const greet = require('./greet')
+
 
 figlet(greet('Xola'), (err, data) => {
     if(err) {
@@ -7,6 +9,10 @@ figlet(greet('Xola'), (err, data) => {
         console.dir(err)
         return
     }
-
-    console.log(data)
+    const styledMessage = chalk.bgGreen.black(data)
+    console.log(styledMessage)
 })
+
+
+
+
